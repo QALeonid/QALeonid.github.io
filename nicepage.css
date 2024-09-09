@@ -42596,6 +42596,7 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
         }
 
         /** common-rules **/
@@ -42738,6 +42739,10 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 1.6;
+        }
+        .u-body
+        {
+        background-attachment: fixed;
         }
         .u-input
         {
@@ -43077,7 +43082,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 22px 0 0 auto;
+  margin: 21px 95px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -43090,11 +43095,15 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-text-1 {
-  margin: -36px auto 29px 37px;
+  margin: -35px auto 29px 37px;
 }
 @media (max-width: 1399px) {
+  .u-header .u-menu-1 {
+    margin-right: 95px;
+  }
+
   .u-header .u-text-1 {
-    margin-top: -36px;
+    margin-top: -35px;
   }
 }
 @media (max-width: 1199px) {
@@ -43104,27 +43113,33 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    width: auto;
+    margin-top: -29px;
+    margin-left: 0;
+  }
+}
  .u-footer {
   background-image: none;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 75px;
+  min-height: 81px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 1px auto 51px;
+  margin: 30px auto;
 }
 @media (max-width: 1399px) {
   .u-footer .u-sheet-1 {
-    min-height: 57px;
+    min-height: 78px;
   }
 
   .u-footer .u-text-1 {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 }
 @media (max-width: 1199px) {
@@ -43134,7 +43149,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
-    min-height: 76px;
+    min-height: 82px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 767px) {
@@ -43144,12 +43164,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 50px;
+    min-height: 66px;
   }
 
   .u-footer .u-text-1 {
     width: auto;
-    margin: 1px 0 27px;
+    margin: 22px 0;
   }
 }
 
