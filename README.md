@@ -1,1 +1,0 @@
-# QALeonid.github.io
